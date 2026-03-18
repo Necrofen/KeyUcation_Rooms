@@ -2,18 +2,24 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PolygonSpace_Planet_01_B
   m_Shader: {fileID: 4800000, guid: eaaf78c712eddcb47a6a599d04aea29b, type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: _PlanetOverlayTop
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -105,6 +111,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _ASEOutlineWidth: 0.01
     - _BumpScale: 1
@@ -154,17 +161,18 @@ Material:
     - __dirty: 0
     - _frez: 16.33
     m_Colors:
-    - _ASEOutlineColor: {r: 0.5181034, g: 0.4426903, b: 0.6764706, a: 0}
+    - _ASEOutlineColor: {r: 0.5, g: 0.2913038, b: 0.23349056, a: 0}
     - _BaseColor: {r: 0.77205884, g: 0.5565714, b: 0.28384516, a: 0}
     - _CloudColor: {r: 0.75735295, g: 0.15035684, b: 0.15035684, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0.7058823, g: 0.41035673, b: 0.03633217, a: 0}
+    - _Color0: {r: 0.38679248, g: 0.16162704, b: 0, a: 0}
     - _Color1: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PlanetBaseColor: {r: 0.9558824, g: 0, b: 0, a: 0}
     - _PlanetRimColor: {r: 0, g: 0, b: 0, a: 0}
     - _PlanetSecondColor: {r: 0.50735295, g: 0.10818557, b: 0.10818557, a: 0}
-    - _RimColor: {r: 0.5176471, g: 0.4431373, b: 0.6784314, a: 0}
+    - _RimColor: {r: 0.5283019, g: 0.31382182, b: 0.23673905, a: 0}
     - _SecondColor: {r: 0.7794118, g: 0.4859862, b: 0.04584775, a: 0}
     - _Second_Color: {r: 0.72794116, g: 0.47316182, b: 0.090992644, a: 0}
     - _Size: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
